@@ -49,7 +49,7 @@ Scoring criteria:
 - 20%: Fix all the bugs and push the proposed solution to your repository online
 - 20%: Explain the solved exercise in the README, in the best possible way
 # Bugs found
-In order to carry out the debugging process we will introduce several breakpoint into our code.
+In order to carry out the debugging process we will introduce several breakpoints into our code.
 ## Bug 1:
 The software was not changing dot by slashes. This is because dot means match everything. In order to solve it we need to place two backlashes before the dots.   
 ## Bug 2: 
