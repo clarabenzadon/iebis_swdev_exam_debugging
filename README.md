@@ -48,3 +48,15 @@ Scoring criteria:
 - 60%: Spot all the bugs
 - 20%: Fix all the bugs and push the proposed solution to your repository online
 - 20%: Explain the solved exercise in the README, in the best possible way
+# Bugs found
+In order to carry out the debugging process we will introduce several breakpoint into our code.
+## Bug 1:
+The software was not changing dot by slashes. This is because dot means match everything. In order to solve it we need to place two backlashes before the dots.   
+## Bug 2: 
+In  switch (random.nextInt(2)) the software was limiting the ints to a bound of 2 so only could output case 0 and case 1 as inputs. Since there are 3 cases ( case 0, case 1 and case 2) we changed that bound of 2 to a bound of 3. 
+## Bug 3: 
+We had to intoduce different break points before each one of the cases in order to jump out of the switch function after one of the options is entered. 
+## Bug 4: 
+We had to intriduce double quotes for literal strings, beacause we were treating them as chars. 
+
+
